@@ -13,6 +13,7 @@
         <module>service-provide2</module>
         <module>ribbon-consumer</module>
         <module>eureka-server</module>
+        <module>feign-consumer</module>
     </modules>
 
     <parent>
@@ -44,6 +45,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
 
         <dependency>
